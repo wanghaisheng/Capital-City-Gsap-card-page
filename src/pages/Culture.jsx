@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 function Culture({ city }) {
-  console.log(city);
   return (
     <ul>
       {city.culture.map((data, i) => (
